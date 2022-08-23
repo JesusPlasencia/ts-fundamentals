@@ -10,6 +10,11 @@
   "author": "Jesus <jesusplasencia2508@hotmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "@types/lodash": "^4.14.184",
     "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "date-fns": "^2.29.2",
+    "lodash": "^4.17.21"
   }
 }
