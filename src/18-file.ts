@@ -1,8 +1,24 @@
-import { subDays, format } from 'date-fns';
+import lodash from "lodash";
 
-const date = new Date(1998, 1, 28);
+const data = [
+  {
+    username: "Ramiro",
+    rol: "admin"
+  },
+  {
+    username: "Andrea",
+    rol: "seller"
+  },
+  {
+    username: "Santiago",
+    rol: "customer"
+  }
+];
 
-const newDate = subDays(date, 30);
-const frm = format(newDate, "yyyy/MM/dd");
+const rta = lodash.groupBy(data, (item) => item.rol);
+console.log(rta);
 
-console.log("FECHA:", frm);
+let myName: (string | null) = null;
+myName = "Hi";
+
+const ame = 1 + '1';
