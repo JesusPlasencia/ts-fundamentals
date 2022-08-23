@@ -11,7 +11,6 @@
   mixed.push({});
 
   let numbers = [1, 2, 3, 4, 5, 6, 7];
-  numbers = numbers.map(item => item * 2);
-  console.log(numbers);
+  numbers.map(item => item * 2);
 })();
 
